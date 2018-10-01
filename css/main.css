@@ -20,6 +20,11 @@ header h1 {
 	font-family: 'Seaweed Script', cursive;
 
 }
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 .column {
     float: left;
     width: 50%;
@@ -52,10 +57,7 @@ header h1 {
     width: 75%;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+
 }
 
 main h1 {
