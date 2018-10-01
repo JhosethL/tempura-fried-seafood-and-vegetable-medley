@@ -21,7 +21,7 @@ header h1 {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-height:40em) {
     .column {
         width: 100%;
     }
